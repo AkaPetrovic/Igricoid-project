@@ -1,0 +1,42 @@
+.div{
+    background-color:whitesmoke;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.315);
+    padding:1em;
+    margin-top: 10vh;
+}
+.naslov{
+    margin:0;
+}
+.poljeZaKomentar{
+    display: block;
+    width:90%;
+    height: 15vh;
+    margin:auto;
+    margin-bottom: 15px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.25rem;
+}
+.poljeZaKomentar:focus{
+    outline: none;
+}
+.poljeZaKomentar:hover{
+    border: 1px solid rgb(223, 223, 223);
+}
+.submitDugme{
+    padding:10px;
+    font-size: 0.75em;
+    margin-bottom: 50px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: orangered;
+    border-radius: 0.25rem;
+    display:block;
+    margin-left:auto;
+    margin-right: 25px;
+}
+.errorMsg{
+    color:red;
+    font-size:0.75em;
+    text-align: center;
+}

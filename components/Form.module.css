@@ -1,0 +1,45 @@
+.forma{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(184, 184, 184);
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.label{
+    margin-left: -5vw;
+    margin-bottom: 7px;
+}
+.polje{
+    margin-left: 2vw;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    width: 20vw;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 5px;
+}
+.polje:focus{
+    outline: none;
+}
+.submitContainer{
+    margin-top: 25px;
+    width: 70%;
+    text-align: center;
+    border-top: 1px solid rgb(223, 223, 223);
+}
+.submitDugme{
+    padding:10px;
+    font-size: 1em;
+    margin-top: 30px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: orangered;
+    border-radius: 7px;
+}
