@@ -1,5 +1,5 @@
 {
-  "name": "epos-projekat",
+  "name": "igricoid-project",
   "private": true,
   "scripts": {
     "dev": "next dev",
