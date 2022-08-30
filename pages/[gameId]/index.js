@@ -16,6 +16,7 @@ export default function DetaljnijePage() {
   //praviPodatak nam sluzi da skladistimo podatke za tacno onaj review koji nam je od znacaja
   //podaci nam sluze da skladistimo sve moguce podatke o review-ovima
   let podaci, praviPodatak;
+  //neki komentar
 
   useEffect(() => {
     setPodaciZaReviews(localStorage.getItem("reviews"));
