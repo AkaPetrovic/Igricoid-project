@@ -1,34 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Frontend of an imaginary website for video game reviews with minimalistic design in mind that was a school project. This project has been accomplished using Next.js framework for React and React itself as a base for the majority of the project.
+This application relies on the use of local storage of a web browser so at first the app should appear to be empty.
+Below are the examples of data that should be put in the appropriate fields when providing input:
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For reviews:
+- Naslov: Forza Horizon 5
+- Slika: forza5.jpg
+- Kratak opis: Forza Horizon 5 je realistična simulacija vožnje automobila
+- Opis: Forza Horizon 5 je najnoviji deo popularne serije igrica koja se zasniva na zanimljivim trkama i realističnoj fizici vožnje automobila.
+  
+For users:
+- Username: Aka
+- Password: aka
+  
+There is a separate place for the comments inside of the local storage, but comments can be anything that user feels like saying about a review, therefore there is no right or wrong regarding commenting
+For the field "Slika" there are a couple of valid values that are identical to the names of the images that are found inside of the public folder. There are 4 inputs that are considered valid: csgo.jpg, forza5.jpg, pubg.jpg, terraria.jpg
